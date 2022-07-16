@@ -53,7 +53,7 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-Led_TypeDef myLED = LED1;
+
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -104,7 +104,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-  BSP_LED_Init(myLED);
+
   /* USER CODE END Init */
 
   /* USER CODE BEGIN SysInit */
@@ -127,7 +127,7 @@ int main(void)
   MX_SPI5_Init();
   MX_TIM8_Init();
   MX_TIM13_Init();
-  MX_UART8_Init();
+  //MX_UART8_Init();
   MX_USB_OTG_HS_PCD_Init();
   /* USER CODE BEGIN 2 */
 

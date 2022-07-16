@@ -42,7 +42,6 @@
 
 /* Private macro -------------------------------------------------------------*/
 /* USER CODE BEGIN PM */
-Led_TypeDef myLED = LED4;
 /* USER CODE END PM */
 
 /* Private variables ---------------------------------------------------------*/
@@ -92,7 +91,7 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-  BSP_LED_Init(myLED);
+
   /* USER CODE END Init */
 
   /* Configure the system clock */

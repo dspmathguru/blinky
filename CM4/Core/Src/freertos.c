@@ -35,7 +35,10 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
-
+/* USER CODE BEGIN PD */
+#ifndef HSEM_ID_0
+#define HSEM_ID_0 (0U) /* HW semaphore 0*/
+#endif
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -45,7 +48,8 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
-
+Led_TypeDef myLED = LED1;
+Led_TypeDef myLED2 = LED2;
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
 osThreadId_t defaultTaskHandle;
@@ -84,7 +88,7 @@ void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
   */
 void MX_FREERTOS_Init(void) {
   /* USER CODE BEGIN Init */
-
+  BSP_LED_Init(myLED);
   /* USER CODE END Init */
 
   /* USER CODE BEGIN RTOS_MUTEX */
@@ -155,7 +159,17 @@ void CM4_ToggleSync(void *argument)
   /* Infinite loop */
   for(;;)
   {
-    osDelay(1);
+	  if (toggleHandle != NULL)
+	  	{
+	  	  /* HSEM Activate Notification*/
+	  	  HAL_HSEM_ActivateNotification(__HAL_HSEM_SEMID_TO_MASK(HSEM_ID_0));
+	  	  /* Try to obtain the semaphore */
+	  	  if (osSemaphoreAcquire(toggleHandle , 0) == osOK)
+	  	  {
+	  		BSP_LED_Toggle(myLED);
+	  	  }
+	  	}
+
   }
   /* USER CODE END CM4_ToggleSync */
 }
