@@ -1,4 +1,0 @@
-Drivers/BSP/Components/mfxstm32l152/mfxstm32l152_reg.o: \
- /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152_reg.c \
- /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152_reg.h
-/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mfxstm32l152/mfxstm32l152_reg.h:
