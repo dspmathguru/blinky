@@ -100,8 +100,8 @@ all: main-build
 main-build: blinky_CM7.elf secondary-outputs
 
 # Tool invocations
-blinky_CM7.elf blinky_CM7.map: $(OBJS) $(USER_OBJS) /home/rjjt/learn/mySTM32/blinky/CM7/STM32H747XIHX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-g++ -o "blinky_CM7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"/home/rjjt/learn/mySTM32/blinky/CM7/STM32H747XIHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blinky_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
+blinky_CM7.elf blinky_CM7.map: $(OBJS) $(USER_OBJS) /Users/rjjt/learn/mySTM32/blinky/CM7/STM32H747XIHX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-g++ -o "blinky_CM7.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m7 -T"/Users/rjjt/learn/mySTM32/blinky/CM7/STM32H747XIHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="blinky_CM7.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -lstdc++ -lsupc++ -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 

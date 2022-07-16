@@ -1,5 +1,5 @@
 Middlewares/Third_Party/FreeRTOS/port.o: \
- /home/rjjt/learn/mySTM32/blinky/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c \
+ /Users/rjjt/learn/mySTM32/blinky/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F/port.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

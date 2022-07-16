@@ -1,7 +1,7 @@
 Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.o: \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.c \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2_conf.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.c \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -57,8 +57,8 @@ Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2_conf.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt48lc4m32b2/mt48lc4m32b2_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:

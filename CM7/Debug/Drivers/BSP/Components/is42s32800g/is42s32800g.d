@@ -1,7 +1,7 @@
 Drivers/BSP/Components/is42s32800g/is42s32800g.o: \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/is42s32800g/is42s32800g.c \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/is42s32800g/is42s32800g.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/is42s32800g/is42s32800g_conf.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/is42s32800g/is42s32800g.c \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/is42s32800g/is42s32800g.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/is42s32800g/is42s32800g_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -41,8 +41,8 @@ Drivers/BSP/Components/is42s32800g/is42s32800g.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/is42s32800g/is42s32800g.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/is42s32800g/is42s32800g_conf.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/is42s32800g/is42s32800g.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/is42s32800g/is42s32800g_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:

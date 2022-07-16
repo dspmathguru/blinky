@@ -1,5 +1,5 @@
 Middlewares/Third_Party/FreeRTOS/tasks.o: \
- /home/rjjt/learn/mySTM32/blinky/Middlewares/Third_Party/FreeRTOS/Source/tasks.c \
+ /Users/rjjt/learn/mySTM32/blinky/Middlewares/Third_Party/FreeRTOS/Source/tasks.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

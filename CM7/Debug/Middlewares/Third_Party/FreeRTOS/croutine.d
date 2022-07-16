@@ -1,5 +1,5 @@
 Middlewares/Third_Party/FreeRTOS/croutine.o: \
- /home/rjjt/learn/mySTM32/blinky/Middlewares/Third_Party/FreeRTOS/Source/croutine.c \
+ /Users/rjjt/learn/mySTM32/blinky/Middlewares/Third_Party/FreeRTOS/Source/croutine.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

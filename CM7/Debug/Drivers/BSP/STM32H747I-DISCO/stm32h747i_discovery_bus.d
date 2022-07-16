@@ -1,7 +1,7 @@
 Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.o: \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.c \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.c \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -41,9 +41,9 @@ Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h:
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -83,4 +83,4 @@ Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.o: \
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h:

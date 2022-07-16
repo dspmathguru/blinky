@@ -39,9 +39,9 @@ Core/Src/stm32h7xx_hal_msp.o: ../Core/Src/stm32h7xx_hal_msp.c \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h
 ../Core/Inc/main.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:
@@ -82,6 +82,6 @@ Core/Src/stm32h7xx_hal_msp.o: ../Core/Src/stm32h7xx_hal_msp.c \
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h:

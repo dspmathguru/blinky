@@ -1,7 +1,7 @@
 Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_ts.o: \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_ts.c \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_ts.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_ts.c \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_ts.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -57,14 +57,14 @@ Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_ts.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/Common/ts.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/ft6x06/ft6x06.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/ft6x06/ft6x06_reg.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/ft6x06/ft6x06_conf.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.h
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_ts.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h:
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/Common/ts.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/ft6x06/ft6x06.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/ft6x06/ft6x06_reg.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/ft6x06/ft6x06_conf.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.h
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_ts.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -120,9 +120,9 @@ Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_ts.o: \
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/Common/ts.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/ft6x06/ft6x06.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/ft6x06/ft6x06_reg.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/ft6x06/ft6x06_conf.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/Common/ts.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/ft6x06/ft6x06.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/ft6x06/ft6x06_reg.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/ft6x06/ft6x06_conf.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_bus.h:

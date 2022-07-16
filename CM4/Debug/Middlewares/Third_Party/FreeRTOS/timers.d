@@ -1,5 +1,5 @@
 Middlewares/Third_Party/FreeRTOS/timers.o: \
- /home/rjjt/learn/mySTM32/blinky/Middlewares/Third_Party/FreeRTOS/Source/timers.c \
+ /Users/rjjt/learn/mySTM32/blinky/Middlewares/Third_Party/FreeRTOS/Source/timers.c \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/FreeRTOS.h \
  ../Core/Inc/FreeRTOSConfig.h \
  ../../Middlewares/Third_Party/FreeRTOS/Source/include/projdefs.h \

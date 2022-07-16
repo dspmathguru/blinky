@@ -16,7 +16,7 @@ OBJS += \
 
 # Each subdirectory must supply rules for building sources it contributes
 Core/Startup/%.o: ../Core/Startup/%.s Core/Startup/subdir.mk
-	arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -I"/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components" -I"/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/Common" -I"/home/rjjt/learn/mySTM32/blinky/CM4/Drivers/STM32H7xx_HAL_Driver" -I"/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
+	arm-none-eabi-gcc -mcpu=cortex-m4 -g3 -DDEBUG -c -I"/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components" -I"/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/Common" -I"/Users/rjjt/learn/mySTM32/blinky/CM4/Drivers/STM32H7xx_HAL_Driver" -I"/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO" -x assembler-with-cpp -MMD -MP -MF"$(@:%.o=%.d)" -MT"$@" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "$@" "$<"
 
 clean: clean-Core-2f-Startup
 

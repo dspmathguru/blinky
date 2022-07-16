@@ -1,7 +1,7 @@
 Drivers/BSP/Components/mt25tl01g/mt25tl01g.o: \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt25tl01g/mt25tl01g.c \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt25tl01g/mt25tl01g.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt25tl01g/mt25tl01g_conf.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt25tl01g/mt25tl01g.c \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt25tl01g/mt25tl01g.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt25tl01g/mt25tl01g_conf.h \
  ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h \
  ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h747xx.h \
  ../../Drivers/CMSIS/Include/core_cm7.h \
@@ -41,8 +41,8 @@ Drivers/BSP/Components/mt25tl01g/mt25tl01g.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_tim_ex.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_uart_ex.h
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt25tl01g/mt25tl01g.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt25tl01g/mt25tl01g_conf.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt25tl01g/mt25tl01g.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/Components/mt25tl01g/mt25tl01g_conf.h:
 ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h7xx.h:
 ../../Drivers/CMSIS/Device/ST/STM32H7xx/Include/stm32h747xx.h:
 ../../Drivers/CMSIS/Include/core_cm7.h:

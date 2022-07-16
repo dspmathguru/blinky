@@ -24,7 +24,7 @@
 
 /* USER CODE END 0 */
 
-QSPI_HandleTypeDef hqspi;
+extern QSPI_HandleTypeDef hqspi;
 
 /* QUADSPI init function */
 void MX_QUADSPI_Init(void)

@@ -1,7 +1,7 @@
 Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_sdram.o: \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_sdram.c \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_sdram.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_sdram.c \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_sdram.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h \
  ../Core/Inc/stm32h7xx_hal_conf.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h \
@@ -57,11 +57,11 @@ Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_sdram.o: \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h \
  ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/is42s32800j/is42s32800j.h \
- /home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/is42s32800j/is42s32800j_conf.h
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_sdram.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h:
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/is42s32800j/is42s32800j.h \
+ /Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/is42s32800j/is42s32800j_conf.h
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_sdram.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal.h:
 ../Core/Inc/stm32h7xx_hal_conf.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_rcc.h:
@@ -117,6 +117,6 @@ Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_sdram.o: \
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_ll_usb.h:
 ../../Drivers/STM32H7xx_HAL_Driver/Inc/stm32h7xx_hal_pcd_ex.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/is42s32800j/is42s32800j.h:
-/home/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/is42s32800j/is42s32800j_conf.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/stm32h747i_discovery_errno.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/is42s32800j/is42s32800j.h:
+/Users/rjjt/learn/mySTM32/blinky/Drivers/BSP/STM32H747I-DISCO/../Components/is42s32800j/is42s32800j_conf.h:
