@@ -164,7 +164,7 @@ void CM7_ToggleSync(void *argument)
 	BSP_LED_Toggle(myLED);
 	osDelay(500);
 	/*Release Hw Semaphore 0 in order to notify the CPU2(CM4)*/
-	HAL_HSEM_Release(HSEM_ID_0,0);
+	HAL_HSEM_Release(HSEM_ID_0, 0);
   }
   /* USER CODE END CM7_ToggleSync */
 }

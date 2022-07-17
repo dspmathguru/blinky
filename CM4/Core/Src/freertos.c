@@ -177,5 +177,19 @@ void CM4_ToggleSync(void *argument)
 /* Private application code --------------------------------------------------*/
 /* USER CODE BEGIN Application */
 
+/**
+  * @brief Semaphore Released Callback.
+  * @param SemMask: Mask of Released semaphores
+  * @retval None
+  */
+void HAL_HSEM_FreeCallback(uint32_t SemMask)
+{
+  if (toggleHandle != NULL)
+  {
+    osSemaphoreRelease(toggleHandle);
+  }
+
+}
+
 /* USER CODE END Application */
 
