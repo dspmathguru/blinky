@@ -59,7 +59,8 @@
 /* Private variables ---------------------------------------------------------*/
 
 /* USER CODE BEGIN PV */
-
+extern Led_TypeDef myLED;
+extern Led_TypeDef myLED2;
 /* USER CODE END PV */
 
 /* Private function prototypes -----------------------------------------------*/
@@ -104,7 +105,6 @@ int main(void)
   HAL_Init();
 
   /* USER CODE BEGIN Init */
-
   /* USER CODE END Init */
 
   /* USER CODE BEGIN SysInit */
@@ -113,22 +113,22 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
-  MX_ADC1_Init();
-  MX_ADC3_Init();
-  MX_ETH_Init();
-  MX_FMC_Init();
-  MX_HDMI_CEC_Init();
-  MX_QUADSPI_Init();
-  MX_RTC_Init();
-  MX_SAI1_Init();
-  MX_SDMMC1_SD_Init();
-  MX_SPDIFRX1_Init();
-  MX_SPI2_Init();
-  MX_SPI5_Init();
-  MX_TIM8_Init();
-  MX_TIM13_Init();
+  //MX_ADC1_Init();
+  //MX_ADC3_Init();
+  //MX_ETH_Init();
+  //MX_FMC_Init();
+  //MX_HDMI_CEC_Init();
+  //MX_QUADSPI_Init();
+  //MX_RTC_Init();
+  //MX_SAI1_Init();
+  //MX_SDMMC1_SD_Init();
+  //MX_SPDIFRX1_Init();
+  //MX_SPI2_Init();
+  //MX_SPI5_Init();
+  //MX_TIM8_Init();
+  //MX_TIM13_Init();
   //MX_UART8_Init();
-  MX_USB_OTG_HS_PCD_Init();
+  //MX_USB_OTG_HS_PCD_Init();
   /* USER CODE BEGIN 2 */
 
   /* USER CODE END 2 */
@@ -146,7 +146,6 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */

@@ -47,8 +47,8 @@
 
 /* Private variables ---------------------------------------------------------*/
 /* USER CODE BEGIN Variables */
-Led_TypeDef myLED3 = LED4;
-Led_TypeDef myLED4 = LED3;
+Led_TypeDef myLED = LED3;
+Led_TypeDef myLED2 = LED4;
 /* USER CODE END Variables */
 /* Definitions for defaultTask */
 osThreadId_t defaultTaskHandle;
@@ -87,8 +87,8 @@ void MX_FREERTOS_Init(void); /* (MISRA C 2004 rule 8.1) */
   */
 void MX_FREERTOS_Init(void) {
   /* USER CODE BEGIN Init */
-  BSP_LED_Init(myLED3);
-  BSP_LED_Init(myLED4);
+  BSP_LED_Init(myLED);
+  BSP_LED_Init(myLED2);
   /* USER CODE END Init */
 
   /* USER CODE BEGIN RTOS_MUTEX */
@@ -161,7 +161,7 @@ void CM7_ToggleSync(void *argument)
   {
 	/*Take Hw Semaphore 0*/
 	HAL_HSEM_FastTake(HSEM_ID_0);
-	BSP_LED_Toggle(myLED3);
+	BSP_LED_Toggle(myLED);
 	osDelay(500);
 	/*Release Hw Semaphore 0 in order to notify the CPU2(CM4)*/
 	HAL_HSEM_Release(HSEM_ID_0,0);
